@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="simple.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="background.css">
+    
+    <script src="menu.js"></script>
+    <style>
+         .parent {
+        display: grid;
+        grid-template-columns: repeat(3,100px);
+        grid-template-rows: repeat(3,100px);
+        grid-gap: 10px;
+        
+    }
+    .inner{
+        border:solid red 2px;
+        background-color: skyblue;
+    }
+    </style>
+   
+</head>
+<body>
+
+      
+    Name : <input type="text" id="name"/><br/>
+    Age :<textarea id="age"></textarea><br/>
+    <input type="button" value="Add" onclick="addData()"/>
+    <hr/>
+    <div class="parent";  display: inline;>
+    
+    <div id="main">
+        
+        
+   
+    </div>
+ 
+</body>
+</html>
