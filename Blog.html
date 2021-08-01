@@ -2,43 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="I 43hhhE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <script src="simple.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous"/>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="background.css">
     
     <script src="menu.js"></script>
-    <style>
-         .parent {
-        display: grid;
-        grid-template-columns: repeat(3,100px);
-        grid-template-rows: repeat(3,100px);
-        grid-gap: 10px;
-        
-    }
-    .inner{
-        border:solid red 2px;
-        background-color: skyblue;
-    }
-    </style>
-   
 </head>
-<body>
+<body >
+    <div class="outerDiv ">
+        <h3>
+           Indian Blog
+        </h3>
+        <br>
+        <div class="linkDiv">
+         
+            <a href="https://www.google.com">Home</a>
+            <a href="https://www.google.com">About Us</a>
+            <a href="https://www.google.com">Contact Us</a>
+        </div>
+       <br>
+        </a>
+<table style="margin-left: 20px;">
+    <tr>
+<td>Title</td>
+<td> <input type="text" id="Title"></td>
+    </tr>
 
-      
-    Name : <input type="text" id="name"/><br/>
-    Age :<textarea id="age"></textarea><br/>
-    <input type="button" value="Add" onclick="addData()"/>
-    <hr/>
-    <div class="parent";  display: inline;>
-    
-    <div id="main">
-        
-        
-   
+    <tr>
+        <td>Article</td>
+        <td> <textarea name="" id="Article" cols="30" rows="3"></textarea></td>
+    </tr>  
+    <tr>
+        <td>Add Image</td>
+        <td> <input type="text"  id="Image"></td>
+    </tr>  
+
+</table>
+<br>
+<input style="margin-left: 20px;" type="button" value="Add Blog" onclick="addData()">
+
+<div id="box">
+
+</div>
+
     </div>
- 
+</div>
+</tr>
+
+</table> 
+
 </body>
+
 </html>

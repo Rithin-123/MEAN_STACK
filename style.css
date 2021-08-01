@@ -1,9 +1,55 @@
 .myClass{
-    background-color: cadetblue;
-    border: red solid 2px;
+  align-content: center;
+border: black;
+border:blue solid 2px;
+width: 500px;
+    height: 500px;
+    text-align: center;
+   
+}
+.outerDiv{
+   
+    height: 800px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 30%;
+
+}
+h3{
+    margin-top: 10px;
+    text-align: center;
+}
+.linkDiv{
+    margin-right: 5px;
+text-align: right;
+
+}
+a{
+    text-decoration: underline;
+}
+td{
+    width: 80px;
+}
+.box{
+    color: black ;
 }
 
 .myClass1{
     background-color:seagreen;
+    font: 100; color: red;
+    
+   
+    
     border:blue solid 2px;
+   display: inline-block;
+    /* border: 2px green solid ; border-width, border-style border-color   */
+    /* border:skyblue dotted 5px; */
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    margin: 40px;
+    flex-grow: 4;
+    display: flex;
+            flex-direction: row;
+    
 }
